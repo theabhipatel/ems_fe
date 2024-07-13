@@ -1,9 +1,12 @@
-
-
 const App = () => {
-  return (
-    <div className="text-3xl bg-black">App</div>
-  )
-}
+  const somevar = "whatever";
 
-export default App
+  return (
+    <div className="text-3xl bg-black">
+      App
+      {somevar}
+    </div>
+  );
+};
+
+export default App;
